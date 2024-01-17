@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 export default function SectOne(){
@@ -12,10 +13,10 @@ export default function SectOne(){
 
         <div className="sect">
         <ul className="contents">
-          <li> <a href ="#">Home</a></li> 
-          <li><a href ="#">Contact</a></li> 
-          <li><a href ="#">About</a></li> 
-          <li> <a href ="#">Sign Up</a></li> 
+          <Link to="/" className="link">Home</Link>
+          <Link to="/contact" className="link">Contact</Link>
+          <Link to="/about" className="link">About</Link>
+          <Link to="/signup" className="link">Sign Up</Link>
         </ul>
             
         </div>
