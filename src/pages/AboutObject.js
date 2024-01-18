@@ -8,7 +8,9 @@ const AboutObject = [
 
     {
         stats: "33K",
-        statsYext: "Monthly Product Sale"
+        statsYext: "Monthly Product Sale",
+        bgcolor: "maroon",
+        colors: "white"
     }
     ,
     {

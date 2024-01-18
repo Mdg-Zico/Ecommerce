@@ -26,7 +26,10 @@ const App = () => {
     <SectOne />
     <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About />} 
+          
+        />
+        
         <Route
             path="/signup"
             element={<SignUp />}
