@@ -403,3 +403,20 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .majorAboutDiv{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.login-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: maroon;
+}
+
+.login-button{
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+    background-color: maroon;
+    color: white;
+}
+    
+    

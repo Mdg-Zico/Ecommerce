@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import FooterObject from "./components/FooterObject";
 import SectOne from "./components/SectOne";
 import NoPage from "./pages/NoPage";
+import LoginSignUp from "./pages/LoginSignUp";
 
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
@@ -34,6 +35,7 @@ const App = () => {
             path="/signup"
             element={<SignUp />}
         />
+        <Route path="/login" element={<LoginSignUp/>} />
         <Route path="*" element ={<NoPage/>}/>
     </Routes>
 
