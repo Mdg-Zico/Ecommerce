@@ -1,13 +1,25 @@
 import React from "react";
-import AboutStats from "./AboutStats";
-import AboutObject from "./AboutObject";
+import AboutStats from "../components/AboutStats";
+import AboutObject from "../components/AboutStatsObject";
+import Founder from "../components/Founders";
+import FoundersObject from "../components/FoundersObject";
+import Incentives from "../components/Incentives";
+import IncentivesObject from "../components/IncentivesObject";
 
-const about = AboutObject.map((abouts)=> (
-    <AboutStats
+const about = AboutObject.map((abouts)=> {
+ return <AboutStats
       {...abouts}
-    />
-  ))
+/>
+})
 
+  const founder = FoundersObject.map((iterate)=>{
+   return <Founder
+    {...iterate}
+    />
+  })
+  const incent = IncentivesObject.map((incents) => (
+    <Incentives key={incents.id} {...incents} />
+  ));
 export default function About(){
     return (
         <div>
@@ -44,6 +56,15 @@ export default function About(){
         <div className="boss-div">
         {about}
         </div>
+
+        <div className="main-founders-div">
+        {founder}
+        </div>
+
+        <div className="incent-about">  
+        {incent}
+        </div>
+        
 
 </div>
             

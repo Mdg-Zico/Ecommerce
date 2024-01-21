@@ -386,8 +386,6 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 .boss-div{
     display: flex;
-    
-    margin-top: -100px;
 }
 .incentivesDivAbout{
    
@@ -401,7 +399,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 
 .majorAboutDiv{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .login-div{
@@ -419,4 +417,37 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     color: white;
 }
     
+.founders-div{
+    height: 450px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
+
+}
+.founders-img{
+    height: 450px;
+    width: 350px;
+}
+.main-founders-div{
+    padding: 10% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.founders-social-handle{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+   
+}
+.founders-name{
+    margin-bottom: 2px;
+   
+}
+.founders-title{
+    margin-top: 0;
+
+}
+.incent-about{
+    margin-top: -7%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
