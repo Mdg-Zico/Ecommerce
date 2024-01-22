@@ -16,7 +16,9 @@ export default function ProductLogo(props){
             
         </div>
         <div className="OfferText">
-                <h1>{props.subtopic}</h1>
+                <h1 className="logo-h1" >{props.subtopic}</h1>
+                <p>{props.count}</p>
+               
             </div>
         </div>
     )

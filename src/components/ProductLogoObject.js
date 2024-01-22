@@ -1,7 +1,9 @@
+import CountdownComponent from "./CountdownComponent";
 const ProductLogoObject=[
     {
         content: "Today's",
         subtopic: "Flash Sales",
+        count: <CountdownComponent/>
     }
 
 ,

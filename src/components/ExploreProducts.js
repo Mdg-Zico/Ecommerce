@@ -8,7 +8,7 @@ export default function ExploreProduct(props){
         <div className="main">
            <div className="product-image">
    
-           <img src={props.img}/>
+           <img src={props.img} alt=""/>
    
    
            </div>

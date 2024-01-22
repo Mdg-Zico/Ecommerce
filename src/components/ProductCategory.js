@@ -8,7 +8,7 @@ export default function ProductCategory(props){
         <div className="category-div-flex">
             <div className="category-box">
             <div>
-            <img src={props.onImg}/>
+            <img src={props.onImg} alt=""/>
             </div>
             <div>
             <p>{props.text1}</p>

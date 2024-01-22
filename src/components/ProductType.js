@@ -10,7 +10,7 @@ return(
      <div className="main">
         <div className="product-image">
 
-        <img src={props.item.img}/>
+        <img src={props.item.img} alt=""/>
 
 
         </div>

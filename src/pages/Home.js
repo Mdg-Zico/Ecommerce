@@ -18,7 +18,6 @@ import IncentivesObject from "../components/IncentivesObject";
 
 
 
-
 const prod = ProductTypeObject.map((item) => (
     <ProductType key={item.id} item={item} />
   ));
@@ -47,6 +46,7 @@ const prod = ProductTypeObject.map((item) => (
         <div>
         
          <Products />
+        
         {logo[0]}
         {prod}
         <ViewProduct />
