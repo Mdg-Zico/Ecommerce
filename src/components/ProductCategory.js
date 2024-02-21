@@ -7,13 +7,12 @@ export default function ProductCategory(props){
  
         <div className="category-div-flex">
             <div className="category-box">
-            <div>
-            <img src={props.onImg} alt=""/>
-            </div>
-            <div>
-            <p>{props.text1}</p>
+            <div className="product-category-div">
+            <img className="product-category-img" src={props.onImg} alt=""/>
 
+            <p>{props.text1}</p>
             </div>
+           
            
             </div>
             

@@ -1,9 +1,15 @@
 import React from "react";
+import Slideshow from "./Slideshow";
+
 
 
 export default function Product(){
+    
+    
     return(
         <div className="product-div-flex">
+       
+        
         <div className="product-div">
             <ul className="products">
                 <li>Woman's Fashion</li>
@@ -19,12 +25,19 @@ export default function Product(){
             </ul>
            
         </div>
-
+    
             <div>
             <hr className="ProductLine" />
+
+            
+        
             </div>
 
+          
+          <Slideshow/>
+          
+        
+  </div>
 
-        </div>
     )
 }

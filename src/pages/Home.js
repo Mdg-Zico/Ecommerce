@@ -1,4 +1,3 @@
-
 import Products from "../components/Products";
 import ProductType from "../components/ProductType";
 import ProductTypeObject from "../components/ProductTypeObject";
@@ -18,8 +17,9 @@ import IncentivesObject from "../components/IncentivesObject";
 
 
 
+
 const prod = ProductTypeObject.map((item) => (
-    <ProductType key={item.id} item={item} />
+    <ProductType key={item.id} {...item} />
   ));
   const logo = ProductLogoObject.map((text, index) => (
     <ProductLogo key={index} {...text} />
@@ -43,11 +43,12 @@ const prod = ProductTypeObject.map((item) => (
   export default function Home(){
 
     return(
-        <div>
-        
-         <Products />
-        
+        <div>    
+            
+         <Products/>
+         
         {logo[0]}
+
         {prod}
         <ViewProduct />
         <HorizontalRule />

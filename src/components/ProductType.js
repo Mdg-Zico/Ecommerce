@@ -10,13 +10,13 @@ return(
      <div className="main">
         <div className="product-image">
 
-        <img src={props.item.img} alt=""/>
+        <img className="product-type-image" src={props.img} alt=""/>
 
 
         </div>
-        <h3>{props.item.description}</h3>
-        <p>{props.item.price}</p>
-        <p>{props.item.rating}</p>
+        <h3>{props.description}</h3>
+        <p>{props.price}</p>
+        <p>{props.rating}</p>
         </div>
     </div>
 )

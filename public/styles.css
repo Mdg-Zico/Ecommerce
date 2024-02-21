@@ -5,6 +5,7 @@ body{
 }
 body, html {
     height: 100%;
+    overflow-x: hidden;
   }
 
 .navbar{
@@ -82,11 +83,23 @@ list-style: none;
    
 }
 .product-image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     height: 200px;
     width: 280px;
-    background-color: lightgrey;
+    background-color: white;
     align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
    
+}
+.product-type-image{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    
 }
 
 .main-main{
@@ -156,9 +169,10 @@ margin-right: -120px;
 }
 .ProductLine{
     width: 0;
-    height: 300px;
+    height: 410px;
     margin-top: -10px;
     padding-top: 0;
+   
     
 }
 .product-div-flex{
@@ -181,6 +195,20 @@ margin-right: -120px;
     margin-bottom: 5%;
    
 
+}
+.product-category-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    
+
+    
+}
+.product-category-div{
+    display: flex; 
+    flex-direction: column;
+    align-Items: center; 
+    justify-content: center;
 }
 .ButtonViewAll{
     margin-left: 60%;
@@ -535,3 +563,18 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .logo-h1{
     margin-right: 30px;
 }
+.img{
+    width: 70%;
+    margin-left: 40px;
+    height: 350px;
+    display: flex;
+
+    
+}
+
+  .slide-container{
+    width: 72%;
+    margin-left: 2%;
+   border-style: none;
+  
+  }
