@@ -609,16 +609,17 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
     width: 500px;
     height: 500px;
   }
-  .arrival-div-right{
-
-  }
   .arrival-div-up{
     width: 530px;
     height: 250px;
     background-color: blue;
   
   }
- 
+  .arrival-div-up-img{
+    width: 530px;
+    height: 250px;
+  }
+  
   .arrival-div-down{
     margin-top: 10px;
     width: 250px;
