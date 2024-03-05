@@ -18,7 +18,8 @@ const ProductCategoryObject = [
     ,
     {
         onImg: "https://previews.123rf.com/images/jemastock/jemastock1811/jemastock181107955/127693593-vintage-photographic-camera-cartoon-black-and-white-vector-illustration-graphic-design.jpg",
-        text1: "Camera"
+        text1: "Camera",
+        className: "blue"
 
     }
     ,

@@ -7,7 +7,7 @@ export default function BestSellingProduct(props){
      <div className="main">
         <div className="product-image">
 
-        <img src={props.img}/>
+        <img className="product-img" src={props.img}/>
 
 
         </div>

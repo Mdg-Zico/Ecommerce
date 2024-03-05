@@ -14,6 +14,7 @@ import ExploreProduct from "../components/ExploreProducts";
 import ExploreProductsObject from "../components/ExploreProductsObject";
 import Incentives from "../components/Incentives";
 import IncentivesObject from "../components/IncentivesObject";
+import NewArrival from "../components/NewArrival";
 
 
 
@@ -25,7 +26,9 @@ const prod = ProductTypeObject.map((item) => (
     <ProductLogo key={index} {...text} />
   ));
   const category = ProductCategoryObject.map((option) => (
-    <ProductCategory key={option.id} {...option} />
+    <ProductCategory key={option.id} {...option} 
+      className={option.className || ''}
+    />
   ));
   const selling = BestSellingProductObject.map((best) => (
     <BestSellingProduct key={best.id} {...best} />
@@ -56,11 +59,14 @@ const prod = ProductTypeObject.map((item) => (
         {category}
         <HorizontalRule />
         <ProductLogoWithViewAll />
+        <div>
         {selling}
+        </div>
         {logo[2]}
         {explore}
         <ViewProduct />
         {logo[3]}
+        <NewArrival/>
         {incent}
         
 </div>
